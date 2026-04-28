@@ -48,7 +48,7 @@ This creates a conversational experience that allows users to engage more direct
 This project will use the following tools:
 
 1. **Generative AI (text)** - ChatGPT will be used to produce the interpretive responses
-2. **ElevenLabs API** - used for text-to-speech audio generation
+2. **Browser-based text-to-speech** – used to present responses in audio form
 3. **ipywidgets** - used to create the interactive interface in Jupyter Notebook
 4. **Python (requests library)** - used to connect to external APIs
 
@@ -65,6 +65,3 @@ This project recognises the importance of representing cultural heritage objects
 - AI responses are constrained to avoid inventing historical details
 - Uncertainty is acknowledged where information is unknown
 - The manuscript is not fictionalised or given an imagined biography
-
-## Notes
-- An internet connection is required for audio generation via the ElevenLabs API
