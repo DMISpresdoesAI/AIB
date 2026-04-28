@@ -22,3 +22,49 @@ The aim of this project is to:
 
 Rather than generating fictional narratives, the project focuses on producing grounded, informative descriptions that reflect known characteristics of the manuscript.
 
+## Human-AI Collaboration
+The project uses generative AI as a collaborative tool rather than an autonomous creator.
+
+The **human role** involves:
+- Designing prompts
+- Defining constraints (e.g avoiding fiction)
+- Selecting and refining outputs
+
+The **AI role** involves:
+- Generating responses based on prompts
+- Exploring different ways of expressing information
+
+A constrained system prompt will ensure that the responses remain accurate, cautious, and focused on the manuscript's material and cultural context.
+
+## Interactive System
+The final output is a Jupyter Notebook interface where users will be able to:
+- Select from guided questions about the manuscript
+- Receive AI-generated responses in first-person perspective
+- Listen to responses through AI-generated audio
+
+This creates a conversational experience that allows users to engage more directly with the object while maintaining historical and cultural integrity.
+
+## Tools and Technologies
+This project will use the following tools:
+
+1. **Generative AI (text)** - ChatGPT will be used to produce the interpretive responses
+2. **ElevenLabs API** - used for text-to-speech audio generation
+3. **ipywidgets** - used to create the interactive interface in Jupyter Notebook
+4. **Python (requests library)** - used to connect to external APIs
+
+## Repository Structure
+Project-folder (AIB)
+- README.md
+- 01_manuscript_interaction.ipynb # Final interactive system
+- 02_prompt_design_and_exploration.ipynb # Process and experimentation
+- requirements.txt
+
+## Ethical Considerations
+This project recognises the importance of representing cultural heritage objects responsibly.
+
+- AI responses are constrained to avoid inventing historical details
+- Uncertainty is acknowledged where information is unknown
+- The manuscript is not fictionalised or given an imagined biography
+
+## Notes
+- An internet connection is required for audio generation via the ElevenLabs API
