@@ -48,10 +48,10 @@ This creates a conversational experience that allows users to engage more direct
 
 This project uses a combination of generative AI and interactive tools:
 
-Generative AI (text) – ChatGPT is used to generate interpretive responses. It is based on a large language model, meaning outputs are shaped by prompt design rather than fixed knowledge.
-Browser-based text-to-speech – implemented using the Web Speech API to convert text into spoken audio in real time.
-ipywidgets – used to create an interactive interface within the Jupyter Notebook.
-Python (requests library) – used where needed to connect to external services.
+- Generative AI (text): ChatGPT is used to generate interpretive responses. It is based on a large language model, meaning outputs are shaped by prompt design rather than fixed knowledge.
+- Browser-based text-to-speech: implemented using the Web Speech API to convert text into spoken audio in real time.
+- ipywidgets: used to create an interactive interface within the Jupyter Notebook.
+- Python (requests library): used where needed to connect to external services.
 
 A more detailed discussion of how these tools function and were used can be found in Notebook 2.
 
