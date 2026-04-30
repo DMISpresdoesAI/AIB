@@ -58,8 +58,8 @@ A more detailed discussion of how these tools function and were used can be foun
 ## Repository Structure
 Project-folder (AIB)
 - README.md
-- 01_manuscript_interaction.ipynb # Final interactive system
-- 02_prompt_design_and_exploration.ipynb # Process and experimentation
+- 01_manuscript_interaction.ipynb: Final interactive system
+- 02_prompt_design_and_exploration.ipynb: Process and experimentation
 - requirements.txt
 
 ## Ethical Considerations
