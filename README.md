@@ -45,18 +45,34 @@ The final output is a Jupyter Notebook interface where users will be able to:
 This creates a conversational experience that allows users to engage more directly with the object while maintaining historical and cultural integrity.
 
 ## Tools and Technologies
-This project will use the following tools:
 
-1. **Generative AI (text)** - ChatGPT will be used to produce the interpretive responses
-2. **Browser-based text-to-speech** – used to present responses in audio form
-3. **ipywidgets** - used to create the interactive interface in Jupyter Notebook
-4. **Python (requests library)** - used to connect to external APIs
+This project uses a combination of generative AI and interactive tools:
+
+- Generative AI (text): ChatGPT is used to generate interpretive responses. It is based on a large language model, meaning outputs are shaped by prompt design rather than fixed knowledge.
+- Browser-based text-to-speech: implemented using the Web Speech API to convert text into spoken audio in real time.
+- ipywidgets: used to create an interactive interface within the Jupyter Notebook.
+- Python (requests library): used where needed to connect to external services.
+
+No external datasets are required to run this project. 
+All AI-generated outputs are included within the notebooks.
+
+External tools (e.g. ChatGPT, ElevenLabs) were used during development but are not required to run the final system.
+
+A more detailed discussion of how these tools function and were used can be found in Notebook 2.
+
+## Attribution and Credits
+
+- Manuscript images: University of Glasgow Archives and Special Collections
+- AI-generated text: Created using ChatGPT
+- Audio experiments: Generated using ElevenLabs (for experimentation only)
+
+All materials are used for educational purposes.
 
 ## Repository Structure
 Project-folder (AIB)
 - README.md
-- 01_manuscript_interaction.ipynb # Final interactive system
-- 02_prompt_design_and_exploration.ipynb # Process and experimentation
+- 01_manuscript_interaction.ipynb: Final interactive system
+- 02_prompt_design_and_exploration.ipynb: Process and experimentation
 - requirements.txt
 
 ## Ethical Considerations
