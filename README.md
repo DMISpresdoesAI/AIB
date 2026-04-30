@@ -53,7 +53,20 @@ This project uses a combination of generative AI and interactive tools:
 - ipywidgets: used to create an interactive interface within the Jupyter Notebook.
 - Python (requests library): used where needed to connect to external services.
 
+No external datasets are required to run this project. 
+All AI-generated outputs are included within the notebooks.
+
+External tools (e.g. ChatGPT, ElevenLabs) were used during development but are not required to run the final system.
+
 A more detailed discussion of how these tools function and were used can be found in Notebook 2.
+
+## Attribution and Credits
+
+- Manuscript images: University of Glasgow Archives and Special Collections
+- AI-generated text: Created using ChatGPT
+- Audio experiments: Generated using ElevenLabs (for experimentation only)
+
+All materials are used for educational purposes.
 
 ## Repository Structure
 Project-folder (AIB)
